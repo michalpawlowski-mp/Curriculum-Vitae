@@ -17,21 +17,18 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="d-flex justify-content-between p-1">
-      <img
-        className="mypicture rounded-4 border border-2 border-secondary my-auto"
-        src={Me}
-        alt="Zdjęcie Michała Pawłowskiego"
-        title="Moje zdjęcie"
-      />
-      <div className="d-flex flex-column align-items-center justify-content-center">
-        <div className="">
-          <h1 className="fs-2 mt-4">inż. Michał Pawłowski</h1>
-          {/* <span>Junior Frontend Developer</span> */}
+    <header className="d-flex flex-md-row justify-content-between flex-column p-1">
+      <div className="d-flex flex-row">
+        <img className="mypicture rounded-4 border border-2 border-secondary my-auto" src={Me} alt="Zdjęcie Michała Pawłowskiego" title="Moje zdjęcie" />
+        <div className="d-flex flex-column align-items-center justify-content-center mx-md-5 m-auto">
+          <div className="mx-1 mt-2">
+            <h1 className="fs-2">inż. Michał Pawłowski</h1>
+            {/* <span>Junior Frontend Developer</span> */}
+          </div>
+          <button title="Pobierz moje CV w formie PDF" type="button" className="btn btn-outline-secondary m-auto text-uppercase" id="downloadBtn">
+            Pobierz CV
+          </button>
         </div>
-        <button title="Pobierz moje CV w formie PDF" type="button" className="btn btn-outline-secondary m-auto text-uppercase" id="downloadBtn">
-          Pobierz CV
-        </button>
       </div>
       <Address />
     </header>

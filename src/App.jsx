@@ -12,16 +12,18 @@ const App = () => {
   return (
     <>
       <Header />
-      <main className="d-flex flex-wrap w-100">
-        <div className="d-flex flex-column w-50">
-          <Education />
-          <Certificates />
-          <div className="d-flex w-100">
-            <Language />
-            <Interests />
+      <main className="d-flex flex-column">
+        <div className="d-flex">
+          <div className="w-50">
+            <Education />
+            <Certificates />
+            <div className="d-flex flex-column flex-md-row">
+              <Language />
+              <Interests />
+            </div>
           </div>
+          <Experience />
         </div>
-        <Experience />
         <Skills />
         <Project />
       </main>
