@@ -6,12 +6,12 @@ import Web from "../../../assets/web.svg";
 
 const Address = () => {
   return (
-    <address className="d-flex flex-column m-0  align-items-center">
+    <address className="d-flex flex-column m-0 mt-2  align-items-center">
       <a title="kontakt@pawlowskimichal.pl" href="mailto:kontakt@pawlowskimichal.pl" className="text-black text-decoration-none align-middle">
         <img className="img-adr object-fit-cover" title="Mój email" src={Email} alt="mój mail" />
         <i className="m-1">kontakt@pawlowskimichal.pl</i>
       </a>
-      <div className="d-flex d-md-block justify-content-around w-100">
+      <div className="d-flex d-md-block justify-content-evenly w-100">
         <div className="d-flex flex-column ">
           <a title="+48 728 117 024" href="tel:+48728117024" className="text-black text-decoration-none my-1 align-middle fs-6">
             <img className="img-adr object-fit-cover" title="Mój telefon" src={Tel} alt="mój telefon" />
