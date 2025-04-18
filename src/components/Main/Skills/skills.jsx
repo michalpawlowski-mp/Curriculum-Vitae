@@ -1,28 +1,32 @@
 const Skills = () => {
   return (
-    <section className="skills" id="skills">
-      <h2 className="text-center bg-secondary bg-opacity-50 rounded-4 m-1 p-1 fs-4">Umiejętności</h2>
-      <ul className="d-flex flex-wrap m-0 p-0">
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">HTML</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">CSS</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">RWD</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">SASS/SCSS</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">LESS</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">JavaScript</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">TypeScript</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">React</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">Tailwind</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">Bootstrap</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">jQuery</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">DevTools</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">GitHub/Git</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">Visual Studio Code</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">Vite</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">Gimp</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">Photoshop</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">Kreatywność</li>
-        <li className="bg-secondary bg-opacity-25 rounded-4 m-1 p-2 list-group">Praca zespołowa</li>
-      </ul>
+    <section className="mx-0" id="skills">
+      <h2 className="text-center bg-secondary bg-opacity-50 rounded-3 m-0 my-1 pb-1 fs-4">
+        Umiejętności
+      </h2>
+      <div className="bg-secondary bg-opacity-25 rounded-3  p-1 pt-0 list-inline">
+        <h3 className="fs-6 m-0 ">Technologie frontendowe:</h3>
+        <div className="m-auto">
+          HTML, CSS, RWD, LESS, SASS/SCSS, Tailwind, Bootstrap, JavaScript,
+          TypeScript, React, jQuery
+        </div>
+      </div>
+      <div className="bg-secondary bg-opacity-25 rounded-3 my-1  p-1 pt-0 list-inline">
+        <h3 className="fs-6 m-0 ">Narzędzia i środowiska:</h3>
+        <div className="m-auto">
+          Git, GitHub, npm, Vite, DevTools, VisualStudioCode
+        </div>
+      </div>
+      <div className="bg-secondary bg-opacity-25 rounded-3  p-1 pt-0 list-inline">
+        <h3 className="fs-6 m-0 ">Grafika i UI:</h3>
+        <div className="m-auto">Photoshop, Photopea , Gimp, Canva</div>
+      </div>
+      <div className="bg-secondary bg-opacity-25 rounded-3 my-1 p-1 pt-0 list-inline">
+        <h3 className="fs-6 m-0 ">Umiejętności miękkie:</h3>
+        <div className="m-auto">
+          Kreatywność, Praca zespołowa, Komunikatywność
+        </div>
+      </div>
     </section>
   );
 };
