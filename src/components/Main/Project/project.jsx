@@ -38,12 +38,11 @@ const Project = () => {
         </ul>
         <ul className="bg-secondary bg-opacity-25 rounded-3 p-1 list-inline w-50">
           <li className="name list-group">Mini Projekty:</li>
-
           <li className="list-group">
-            <b>Strona Portfolio</b> - Moje osobiste portfolio, które prezentuje
-            projekty, umiejętności oraz doświadczenie w tworzeniu stron
-            internetowych. Znajdziesz tu także odnośniki do wybranych
-            repozytoriów.
+            <b>CloneTube</b> – Aplikacja internetowa, która klonuje interfejs
+            serwisu YouTube. Została zbudowana w Next.js, React i TypeScript. Do
+            stylowania wykorzystałem Tailwind CSS, a dane są pobierane za pomocą
+            YouTube API v3.
             <a
               href="https://github.com/aJpaRmp/MyWebsite"
               target="_blank"
@@ -52,12 +51,10 @@ const Project = () => {
               Projekt dostępny na GitHubie.
             </a>
           </li>
-
           <li className="list-group">
-            <b>Strona CV</b> – Strona internetowa prezentująca moje CV w
-            nowoczesnej i przejrzystej formie. Strona zawiera sekcje z
-            doświadczeniem zawodowym, umiejętnościami, edukacją. Zbudowana z
-            wykorzystaniem Vite, HTML, CSS, React, Bootstrap i SCSS.
+            <b>Strona Portfolio</b> – Moje osobiste portfolio, które prezentuje
+            moje projekty i umiejętności. Strona została stworzona przy użyciu
+            Vite i React. Do stylowania zastosowałem Tailwind CSS.
             <a
               href="https://github.com/aJpaRmp/MyWebsite"
               target="_blank"

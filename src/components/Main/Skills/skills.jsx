@@ -14,7 +14,7 @@ const Skills = () => {
       <div className="bg-secondary bg-opacity-25 rounded-3 my-1  p-1 pt-0 list-inline">
         <h3 className="fs-6 m-0 ">Narzędzia i środowiska:</h3>
         <div className="m-auto">
-          Git, GitHub, npm, Vite, DevTools, VisualStudioCode
+          Git, GitHub, npm, Vite, Next,js, DevTools, Visual Studio Code
         </div>
       </div>
       <div className="bg-secondary bg-opacity-25 rounded-3  p-1 pt-0 list-inline">

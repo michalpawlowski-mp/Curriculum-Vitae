@@ -20,17 +20,19 @@ const Experience = () => {
         </ul> */}
         <ul className="bg-secondary bg-opacity-25 rounded-3  m-0  p-1 pe-0 list-inline w-100">
           <li className="date opacity-75">08/2022 – 09/2022 (2 mies.)</li>
-          <li className="name fw-bold">
+          <li className="name fw-bold ">
             Szpital Uniwersytecki nr 2 im. Jana Biziela w Bydgoszczy
           </li>
           <li className="position">
             Dział Samodzielnej Sekcji Łączności (STAŻ)
           </li>
           <li className="description">
-            <ol className="p-0 ps-3">
-              <li>Wsparcie techniczne dla szpitalnych systemów łączności</li>
-              <li>
-                Zarządzanie systemami telekomunikacyjnymi i kontrolą dostępu
+            <ol className="p-0 px-1">
+              <li className="list-inline">
+                - Wsparcie techniczne dla szpitalnych systemów łączności
+              </li>
+              <li className="list-inline">
+                - Zarządzanie systemami telekomunikacyjnymi i kontrolą dostępu
               </li>
             </ol>
           </li>
@@ -42,15 +44,18 @@ const Experience = () => {
           </li>
           <li className="position">Dział Techniczny</li>
           <li className="description">
-            <ol className="p-0 ps-3">
-              <li>
-                Wsparcie techniczne systemów i sprzętu komputerowego na uczelni
+            <ol className="p-0 ps-1">
+              <li className="list-inline">
+                - Wsparcie techniczne systemów i sprzętu komputerowego na
+                uczelni
               </li>
-              <li>Wsparcie w utrzymaniu i aktualizacji infrastruktury IT.</li>
+              <li className="list-inline">
+                - Wsparcie w utrzymaniu i aktualizacji infrastruktury IT.
+              </li>
             </ol>
           </li>
         </ul>
-        <ul className="bg-secondary bg-opacity-25 rounded-3  m-0  p-1 list-inline w-100">
+        <ul className="bg-secondary bg-opacity-25 rounded-3  m-0  p-1 list-inline w-100 ">
           <li className="date opacity-75">07/2021 – 09/2021 (3 mies.)</li>
           <li className="name fw-bold">
             BELMA ACCESSORIES SYSTEMS
@@ -58,15 +63,17 @@ const Experience = () => {
           </li>
           <li className="position">Referent ds. Informatycznych</li>
           <li className="description">
-            <ol className="p-0 ps-3">
-              <li>
-                Wsparcie techniczne w zarządzaniu systemami informatycznymi
+            <ol className="p-0 ps-1 ">
+              <li className="list-inline">
+                - Wsparcie techniczne w zarządzaniu systemami informatycznymi
               </li>
-              <li>
-                Rozwiązywanie problemów technicznych związanych z siecią i
+              <li className="list-inline">
+                - Rozwiązywanie problemów technicznych związanych z siecią i
                 sprzętem
               </li>
-              <li>Przygotowywanie dokumentacji technicznej.</li>
+              <li className="list-inline">
+                - Przygotowywanie dokumentacji technicznej.
+              </li>
             </ol>
           </li>
         </ul>

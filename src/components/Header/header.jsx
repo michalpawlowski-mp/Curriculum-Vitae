@@ -1,20 +1,20 @@
 import Address from "./Address/addres.jsx";
 import Me from "../../assets/MP.svg";
-// import { useEffect } from "react";
+import { useEffect } from "react";
 
 const Header = () => {
-  // useEffect(() => {
-  //   const handleDownload = () => {
-  //     const link = document.createElement("a");
-  //     link.href = "/Curriculumvitae-Michal Pawlowski.pdf";
-  //     link.download = "CV-MichalPawlowski.pdf";
-  //     document.body.appendChild(link);
-  //     link.click();
-  //     document.body.removeChild(link);
-  //   };
+  useEffect(() => {
+    const handleDownload = () => {
+      const link = document.createElement("a");
+      link.href = "/Curriculumvitae-Michal Pawlowski.pdf";
+      link.download = "CV-MichalPawlowski.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
 
-  //   document.getElementById("downloadBtn").onclick = handleDownload;
-  // }, []);
+    document.getElementById("downloadBtn").onclick = handleDownload;
+  }, []);
 
   return (
     <header className="d-flex flex-md-row justify-content-between flex-column p-1 pb-0">
@@ -30,9 +30,14 @@ const Header = () => {
             <h1 className="fs-2">inż. Michał Pawłowski</h1>
             {/* <span>Junior Frontend Developer</span> */}
           </div>
-          {/* <button title="Pobierz moje CV w formie PDF" type="button" className="btn btn-outline-secondary m-auto text-uppercase" id="downloadBtn">
+          <button
+            title="Pobierz moje CV w formie PDF"
+            type="button"
+            className="btn btn-outline-secondary m-auto text-uppercase"
+            id="downloadBtn"
+          >
             Pobierz CV
-          </button> */}
+          </button>
         </div>
       </div>
       <Address />

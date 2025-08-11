@@ -19,7 +19,7 @@ const Certificates = () => {
             sieciami
           </li>
         </ul>
-        <ul className="bg-secondary bg-opacity-25 rounded-3 m-0  p-1 list-inline">
+        <ul className="bg-secondary bg-opacity-25 rounded-3 m-0 p-1 list-inline">
           <li className="date opacity-75">06/2018</li>
           <li className="name-c  fw-bold ">
             E12 Montaż i eksploatacja komputerów osobistych oraz urządzeń

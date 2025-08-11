@@ -11,7 +11,7 @@ const Interests = () => {
         <li className="bg-secondary bg-opacity-25 rounded-3 m-0 mx-1  p-1 list-inline">
           Piłka Nożna
         </li>
-        <li className="bg-secondary bg-opacity-25 rounded-3 m-0 mt-1  p-1 list-inline">
+        <li className="bg-secondary bg-opacity-25 rounded-3 m-0 mt-md-1  p-1 list-inline">
           Siłownia
         </li>
       </ul>

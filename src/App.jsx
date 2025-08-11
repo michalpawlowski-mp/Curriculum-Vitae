@@ -16,12 +16,10 @@ const App = () => {
         <div className="d-flex">
           <div className="w-50">
             <Education />
-            <div className="d-flex">
-              <Certificates />
-              <div className="d-flex flex-column ">
-                <Language />
-                <Interests />
-              </div>
+            <Certificates />
+            <div className="d-flex flex-column flex-md-row">
+              <Language />
+              <Interests />
             </div>
           </div>
           <Experience />
