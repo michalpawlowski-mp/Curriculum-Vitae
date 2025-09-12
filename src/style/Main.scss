@@ -1,0 +1,36 @@
+#profile {
+  h2 {
+    font-size: 0.8rem;
+  }
+}
+#info {
+  h3 {
+    font-size: 0.65rem;
+  }
+}
+#education,
+#experience {
+  .date {
+    font-size: 0.55rem;
+  }
+  .name {
+    font-size: 0.7rem;
+  }
+  .study,
+  .position,
+  .description {
+    font-size: 0.6rem;
+  }
+}
+
+#project {
+  .name {
+    font-size: 0.65rem;
+  }
+  a {
+    font-size: 0.6rem;
+  }
+  #projects {
+    font-size: 0.55rem;
+  }
+}
