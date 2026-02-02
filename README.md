@@ -1,12 +1,49 @@
-# React + Vite
+# Projekt: Curricilum-Vitae
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vite](https://img.shields.io/badge/Vite-4B0082?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-Currently, two official plugins are available:
+## 📌 Opis projektu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projekt **CV online** powstał z potrzeby stworzenia własnego layoutu, ponieważ żaden z dostępnych kreatorów CV nie spełniał moich oczekiwań pod względem układu i czytelności.
 
-## Expanding the ESLint configuration
+Jest to klasyczne CV odwzorowane w formie strony internetowej, stworzone przy użyciu frontendowych technologii: **Vite, React oraz Bootstrap**.
+Projekt skupia się na przejrzystej prezentacji informacji, responsywności oraz pełnej kontroli nad strukturą i wyglądem treści.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Demo
+
+🔗 [Zobacz na żywo](https://michalpawlowski-mp.github.io/Curriculum-Vitae/)
+
+## 🚀 Uruchamianie projektu
+
+### 1️⃣ Klonowanie repozytorium
+
+```bash
+git clone https://github.com/michalpawlowski-mp/Curriculum-Vitae
+cd Curriculum-Vitae
+```
+
+### 2️⃣ Instalacja zależności
+
+```bash
+yarn install  # lub npm install
+```
+
+### 3️⃣ Uruchomienie projektu
+
+```bash
+yarn dev  # lub npm run dev
+```
+
+Aplikacja powinna być dostępna pod adresem `http://localhost:5173/`
+
+## 🛠 Technologie
+
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+
+---
+
+💡 Stworzony przez [Michał Pawłowski (Linkedin)](https://www.linkedin.com/in/michalpawlowski-mp/)
