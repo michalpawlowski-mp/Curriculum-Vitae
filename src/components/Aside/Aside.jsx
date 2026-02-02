@@ -7,7 +7,7 @@ import DownloadButton from "./DownloadButton/DownloadButton";
 function Aside() {
   return (
     <>
-      <aside className="h-100 w-auto bg-secondary bg-opacity-75 d-flex flex-column justify-content-between">
+      <aside className="w-auto bg-secondary bg-opacity-75 d-flex flex-column justify-content-between">
         <div>
           <Contact />
           <Skills />

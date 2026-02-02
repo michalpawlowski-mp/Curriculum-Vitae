@@ -1,7 +1,13 @@
 address {
   a {
-    span {
+    span,
+    strong {
       font-size: 0.7rem;
+    }
+    @media (max-width: 757px) {
+      .web {
+        display: none;
+      }
     }
   }
 }
@@ -30,6 +36,6 @@ address {
     font-size: 0.65rem;
   }
   #cv__info {
-    font-size: 0.55rem;
+    font-size: 0.45rem;
   }
 }

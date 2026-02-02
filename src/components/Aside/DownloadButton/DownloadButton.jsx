@@ -3,13 +3,15 @@ const DownloadButton = () => {
     const link = document.createElement("a");
     link.href = "/CV/Curriculum_Vitae-Michal_Pawlowski.pdf";
     link.download = "Michal_Pawlowski_CV.pdf";
+
+    document.body.appendChild(link);
     link.click();
+    document.body.removeChild(link);
   };
 
   return (
     <button
       type="button"
-      id="downloadBtn"
       className="btn btn-outline-dark btn-sm mx-auto mb-2"
       onClick={handleDownload}
     >

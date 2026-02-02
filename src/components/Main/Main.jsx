@@ -8,12 +8,12 @@ import "../../style/Main.scss";
 function Main() {
   return (
     <>
-      <main className="h-100 w-auto">
+      <main className="w-auto mx-1">
         <Profile />
         <Info />
-        <Education />
-        <Experience />
         <Project />
+        <Experience />
+        <Education />
       </main>
     </>
   );
