@@ -1,4 +1,4 @@
-# Projekt: Curricilum-Vitae
+# Projekt: Curriculum-Vitae
 
 ![Vite](https://img.shields.io/badge/Vite-4B0082?style=for-the-badge&logo=vite&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
