@@ -22,8 +22,8 @@ export const skills = [
     items: ["Git", "GitHub", "npm", "Vite", "Vercel", "DevTools", "VS Code"],
   },
   {
-    title: "AI-assisted development",
-    items: ["ChatGPT", "GitHub Copilot", "Gemini (debugging, refactoring, learning)"],
+    title: "Wsparcie AI w programowaniu:",
+    items: ["ChatGPT", "GitHub Copilot", "Gemini (debugowanie, refaktoryzacja, nauka)"],
   },
   {
     title: "Grafika i UI",

@@ -10,11 +10,11 @@ const Contact = () => {
       <ul className="d-flex flex-column m-0 p-0 list-unstyled  ">
         <li>
           <a
-            href="mailto:kontakt@pawlowskimichal.pl"
+            href="mailto:kontakt@michalpawlowski.pl"
             className="border-bottom m-1 pb-1 link-offset-2 link-underline link-underline-opacity-0 text-black d-flex"
           >
             <img src={Email} alt="Email icon" />
-            <span className="ms-1">kontakt@pawlowskimichal.pl</span>
+            <span className="ms-1">kontakt@michalpawlowski.pl</span>
           </a>
         </li>
         <li>
@@ -28,13 +28,13 @@ const Contact = () => {
         </li>
         <li>
           <a
-            href="https://pawlowskimichal.pl/"
+            href="https://michalpawlowski.pl/"
             target="_blank"
             rel="noopener noreferrer"
             className="border-bottom m-1 pb-1 link-offset-2 link-underline link-underline-opacity-0 text-black d-flex"
           >
             <img src={Website} alt="Website icon" className="invert" />
-            <span className="ms-1">pawlowskimichal.pl</span>
+            <span className="ms-1">michalpawlowski.pl</span>
           </a>
         </li>
         <li>
