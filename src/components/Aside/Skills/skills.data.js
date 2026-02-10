@@ -22,7 +22,7 @@ export const skills = [
     items: ["Git", "GitHub", "npm", "Vite", "Vercel", "DevTools", "VS Code"],
   },
   {
-    title: "Wsparcie AI w programowaniu:",
+    title: "Wsparcie AI w programowaniu",
     items: ["ChatGPT", "GitHub Copilot", "Gemini (debugowanie, refaktoryzacja, nauka)"],
   },
   {
