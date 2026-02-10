@@ -8,7 +8,7 @@ import "../../style/Main.scss";
 function Main() {
   return (
     <>
-      <main className="w-auto mx-1">
+      <main className="w-75 mx-1">
         <Profile />
         <Info />
         <Project />

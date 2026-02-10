@@ -5,7 +5,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      <div className="d-flex w-100">
+      <div className="d-flex">
         <Aside />
         <Main />
       </div>

@@ -1,7 +1,7 @@
 const DownloadButton = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/CV/Curriculum_Vitae-Michal_Pawlowski.pdf";
+    link.href = "/CV/Michal-Pawlowski-Curruculum-Vitae.pdf";
     link.download = "Michal_Pawlowski_CV.pdf";
 
     document.body.appendChild(link);
