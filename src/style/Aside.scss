@@ -4,11 +4,11 @@ address {
     strong {
       font-size: 0.7rem;
     }
-    // @media (max-width: 757px) {
-    //   .web {
-    //     display: none;
-    //   }
-    // }
+    @media (max-width: 757px) {
+      .web {
+        display: none;
+      }
+    }
   }
 }
 
