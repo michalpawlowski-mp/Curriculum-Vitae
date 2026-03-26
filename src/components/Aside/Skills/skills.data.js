@@ -23,7 +23,7 @@ export const skills = [
   },
   {
     title: "Wsparcie AI w programowaniu",
-    items: ["ChatGPT", "GitHub Copilot", "Gemini (debugowanie, refaktoryzacja, nauka)"],
+    items: ["ChatGPT", "GitHub Copilot", "Claude", "Gemini"],
   },
   {
     title: "Grafika i UI",

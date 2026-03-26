@@ -1,66 +1,22 @@
-import Email from "../../../assets/icons/email.svg";
-import Phone from "../../../assets/icons/phone.svg";
-import Website from "../../../assets/icons/web.svg";
-import Linkedin from "../../../assets/icons/linkedin.svg";
-import Github from "../../../assets/icons/github.svg";
+import { contactData } from "./contact.data";
 
 const Contact = () => {
   return (
     <address>
-      <ul className="d-flex flex-column m-0 p-0 list-unstyled  ">
-        <li>
-          <a
-            href="mailto:kontakt@michalpawlowski.pl"
-            className="border-bottom m-1 pb-1 link-offset-2 link-underline link-underline-opacity-0 text-black d-flex"
-          >
-            <img src={Email} alt="Email icon" />
-            <span className="ms-1">kontakt@michalpawlowski.pl</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="tel:+48728117024"
-            className="border-bottom m-1 pb-1 link-offset-2 link-underline link-underline-opacity-0 text-black d-flex"
-          >
-            <img src={Phone} alt="Phone icon" />
-            <span className="ms-1">+48 728 117 024</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://michalpawlowski.pl/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border-bottom m-1 pb-1 link-offset-2 link-underline link-underline-opacity-0 text-black d-flex"
-          >
-            <img src={Website} alt="Website icon" className="invert" />
-            <span className="ms-1">michalpawlowski.pl</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/michalpawlowski-mp/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border-bottom m-1 pb-1 link-offset-2 link-underline link-underline-opacity-0 text-black d-flex"
-          >
-            <img src={Linkedin} alt="LinkedIn icon" className="me-1" />
-            <span className="web">linkedin.com/in</span>
-            <span>/michalpawlowski-mp</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/michalpawlowski-mp"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border-bottom m-1 pb-1 link-offset-2 link-underline link-underline-opacity-0 text-black d-flex"
-          >
-            <img src={Github} alt="GitHub icon" className="me-1" />
-            <span className="web">github.com</span>
-            <span>/michalpawlowski-mp</span>
-          </a>
-        </li>
+      <ul className="d-flex flex-column m-0 p-0 list-unstyled">
+        {contactData.map((item) => (
+          <li key={item.href}>
+            <a
+              href={item.href}
+              className="border-bottom m-1 pb-1 link-offset-2 link-underline link-underline-opacity-0 text-black d-flex"
+              {...(item.external && { target: "_blank", rel: "noopener noreferrer" })}
+            >
+              <img src={item.icon} alt={item.alt} className={item.iconClass} />
+              {item.labelPrefix && <span className="web">{item.labelPrefix}</span>}
+              <span>{item.label}</span>
+            </a>
+          </li>
+        ))}
       </ul>
     </address>
   );

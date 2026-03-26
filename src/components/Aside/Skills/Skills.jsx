@@ -2,7 +2,7 @@ import { skills } from "./skills.data";
 
 const Skills = () => {
   return (
-    <section className="ms-1" id="skills">
+    <section className="ms-1" id="skills" aria-label="Umiejętności">
       <h4 className="fs-4 mb-1">Umiejętności:</h4>
 
       {skills.map((group) => (

@@ -8,8 +8,8 @@ const Experience = () => {
         Doświadczenie
       </h2>
 
-      {experienceData.map((item, index) => (
-        <ExperienceItem key={index} {...item} />
+      {experienceData.map((item) => (
+        <ExperienceItem key={item.company} {...item} />
       ))}
     </section>
   );

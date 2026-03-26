@@ -7,7 +7,10 @@ import DownloadButton from "./DownloadButton/DownloadButton";
 function Aside() {
   return (
     <>
-      <aside className="w-50 bg-secondary bg-opacity-75 d-flex flex-column justify-content-between">
+      <aside
+        className="w-50 bg-secondary bg-opacity-75 d-flex flex-column justify-content-between"
+        aria-label="Informacje kontaktowe i umiejętności"
+      >
         <div>
           <Contact />
           <Skills />
