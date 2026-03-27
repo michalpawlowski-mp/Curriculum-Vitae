@@ -1,13 +1,9 @@
 address {
+  min-width: 225px;
   a {
     span,
     strong {
       font-size: 0.7rem;
-    }
-    @media (max-width: 757px) {
-      .web {
-        display: none;
-      }
     }
   }
 }

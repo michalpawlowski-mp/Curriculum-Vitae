@@ -7,15 +7,13 @@ import "../../style/Main.scss";
 
 function Main() {
   return (
-    <>
-      <main className="w-75 mx-1">
-        <Profile />
-        <Info />
-        <Project />
-        <Experience />
-        <Education />
-      </main>
-    </>
+    <main className="w-75 mx-1">
+      <Profile />
+      <Info />
+      <Project />
+      <Experience />
+      <Education />
+    </main>
   );
 }
 

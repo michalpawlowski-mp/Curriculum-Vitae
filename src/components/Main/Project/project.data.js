@@ -16,7 +16,7 @@ export const projects = [
   {
     name: "Strona Portfolio",
     description: "Osobiste portfolio prezentujące moje projekty i umiejętności.",
-    tech: ["React", "Vite", "Tailwind CSS"],
+    tech: ["Vite", "React", "Tailwind CSS"],
     link: "https://github.com/michalpawlowski-mp/pawlowskimichal.pl",
   },
 ];
