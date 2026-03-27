@@ -6,7 +6,7 @@
 
 ## 📌 Opis projektu
 
-Projekt **CV online** powstał z potrzeby stworzenia własnego layoutu, ponieważ żaden z dostępnych kreatorów CV nie spełniał moich oczekiwań pod względem układu i czytelności.
+Projekt **Curriculum-Vitae** powstał z potrzeby stworzenia własnego layoutu, ponieważ żaden z dostępnych kreatorów CV nie spełniał moich oczekiwań pod względem układu i czytelności.
 
 Jest to klasyczne CV odwzorowane w formie strony internetowej, stworzone przy użyciu frontendowych technologii: **Vite, React oraz Bootstrap**.
 Projekt skupia się na przejrzystej prezentacji informacji, responsywności oraz pełnej kontroli nad strukturą i wyglądem treści.
