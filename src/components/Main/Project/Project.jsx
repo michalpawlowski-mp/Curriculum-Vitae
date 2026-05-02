@@ -3,7 +3,7 @@ import ProjectItem from "./ProjectItem";
 
 const Project = () => {
   return (
-    <section className="" id="project">
+    <section id="project">
       <h2 className="text-center bg-secondary bg-opacity-50 rounded-3 pb-1 pt-0 m-0 fs-6">
         Projekty
       </h2>
